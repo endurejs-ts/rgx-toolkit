@@ -10,5 +10,10 @@ class IRtestClass {
         const regexp = /^[a-z]$/;
         return regexp.test(str)
     }
+
+    static customCheck(): IRCustomCheck {}
 }
 
+class IRCustomCheck {
+
+}
